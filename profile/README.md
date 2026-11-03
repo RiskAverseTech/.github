@@ -15,8 +15,8 @@ the ones that did not go well.
 | Power gets checked | **[toolgate](https://github.com/RiskAverseTech/toolgate)** | A measured tool-call firewall for AI agents: allow, ask or deny before the agent acts, every verdict logged with its probabilities. Claude Code mod or hook; MCP proxy for Cursor, Claude Desktop and custom agents. | maintained | `npm i -g @riskaverse/toolgate` |
 | Rules get written down | **[The Embassy](https://github.com/RiskAverseTech/embassy)** | A relay between human-space and agent-space whose reach is a charter, not a prompt: every venue it may speak in is a table row, every message is rendered by a declared transform, and every crossing is written to a hash-chained ledger and anchored inside the delivered message, so each side holds the record of the other. The model behind it is stated in [FRAMEWORK.md](https://github.com/RiskAverseTech/embassy/blob/main/FRAMEWORK.md). | v2 · framework 1.0 draft | `git clone` · `npm install` · `npm test` |
 | Communities govern themselves | **[humanOS](https://github.com/RiskAverseTech/humanOS)** | A private, self-hosted hub for a family or small team: notes, files, chat channels and shared AI threads in one space you run yourself. | experimental | `git clone` · Next.js + Supabase |
-| Your records stay yours | **[MemeVault](https://github.com/RiskAverseTech/MemeVault)** | A local-first image browser and curation tool. One Python file; nothing leaves your machine. | experimental | `python memevault.py` |
-| Measured, not claimed | **[cicada-ioc](https://github.com/RiskAverseTech/cicada-ioc)** | Eight pre-registered analyses of the unsolved Liber Primus pages, each with planted controls, each a negative result reported as one; a three-model hypothesis loop gated on the ciphertext's own statistics; and a ledger of what the other public labs had already shown. | maintained | `git clone` + Python 3 with numpy |
+| Your records stay yours | **[MemeVault](https://github.com/RiskAverseTech/MemeVault)** | A local-first image browser and curation tool: tag a folder of images, filter, export the ones you want. One Python file; no request leaves your machine. | early | `pip install flask` · `python meme_vault.py --folder <images>` |
+| Measured, not claimed | **[cicada-ioc](https://github.com/RiskAverseTech/cicada-ioc)** | Pre-registered cryptanalysis of the 55 unsolved Liber Primus pages: 84 numbered sections, 1.24 billion decoder tests with planted controls, 46 of 76 lanes closed null and each reported as one; three external reviews adopted, twelve corrections and one withdrawn claim left in the record. Section 0 says where we think the solution is. Companion site: [liber-primus-site](https://github.com/RiskAverseTech/liber-primus-site). | paused 2026-11-01, record complete (v1.0) | `git clone` + Python 3 with numpy |
 
 From our products: **[createa-meme-skill](https://github.com/RiskAverseTech/createa-meme-skill)** turns one sentence into a finished meme from Claude Code, Cursor or any MCP agent (powered by [Create a Meme](https://createa.meme)). **[Quorum](https://www.quorumsays.com)** has five AI models debate a question with an assigned adversary and publishes the verdict with its dissent; it is a product, built on the same rules.
 
@@ -24,7 +24,7 @@ From our products: **[createa-meme-skill](https://github.com/RiskAverseTech/crea
 
 - **Open by default.** Policies, prompts and rules live in files you can read and change.
 - **Measured, not claimed.** Results are published with their denominators and their limits.
-- **Corrections stay in the record.** When something shipped wrong, the changelog says so.
+- **Corrections stay in the record.** When something shipped wrong, the changelog or release notes say so, next to the original claim.
 - **Adversarial review is invited.** Break it and tell us; the security policy below says how.
 
 ## Contributing and security
